@@ -9,5 +9,5 @@ jobs:
       - name: print greeting
         run: echo "Hello, World!"
       - name: print goodbye
-        run: echo "Done - bye!
+        run: echo "Done - bye!"
       
