@@ -1,0 +1,17 @@
+name: 'Relembrando workflows'
+on:
+  push:
+    branches: ['main']
+  workflow_dispatch:
+jobs:
+  primeiro_job:
+    name: 'meu job'
+    runs-on: ubuntu-20.04
+    steps:
+      - name: 'msg 1'
+        run: echo 'hello wordl'
+      - name: 'msg 2'
+        run: echo 'helll
+      - name: 'msg 3'
+        shell: python
+        run: print('msg 4')
