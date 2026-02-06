@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: 'msg 1'
-        run: echo 'hello wordl'
+        run: echo 'hello world'
       - name: 'msg 2'
-        run: echo 'helll
+        run: echo 'hello world'
       - name: 'msg 3'
         shell: python
         run: print('msg 4')
