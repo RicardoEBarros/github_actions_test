@@ -1,4 +1,4 @@
-name: 'Relembrando workflows'
+name: relembrando-ci-cd
 on:
   push:
     branches: ['main']
