@@ -6,7 +6,7 @@ on:
 jobs:
   primeiro_job:
     name: 'meu job'
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: 'msg 1'
         run: echo 'hello world'
