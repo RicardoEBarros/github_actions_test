@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: 'GitHub'
         env:
-          ENV_GITHUB: ${{github}}
-        run: echo $ENV_GITHUB
+          ENV_GITHUB: ${{ toJson(github) }}
+        run: echo '$ENV_GITHUB'
