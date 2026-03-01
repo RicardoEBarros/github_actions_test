@@ -9,3 +9,7 @@ jobs:
         env:
           ENV_GITHUB: ${{ toJson(github) }}
         run: echo '$ENV_GITHUB'
+      - name: 'Strategy'
+        env:
+          ENV_STRATEGY: ${{ toJson(strategy) }}
+        run: echo '$ENV_STRATEGY'
