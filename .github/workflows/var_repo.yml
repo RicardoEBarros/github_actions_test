@@ -1,0 +1,9 @@
+name: 'Variáveis por Repositório'
+on:
+  workflow_dispatch:
+jobs:
+  variaveis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Imprimindo variável'
+        run: echo '${{ vars.ENV_VARIAVEL_REPO }}'
