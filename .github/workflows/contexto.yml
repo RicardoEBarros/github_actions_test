@@ -1,0 +1,11 @@
+name: 'Trabalhando com Contexto'
+on:
+  workflow_dispatch:
+jobs:
+  contexto:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'GitHub'
+        env:
+          ENV_GITHUB: ${{github}}
+        run: echo $ENV_GITHUB
